@@ -1,3 +1,3 @@
 @echo off
-cd "%cd%\bin"
-call app.bat
+:: nop cd "%cd%\bin"
+call run.bat
