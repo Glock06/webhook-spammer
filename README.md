@@ -1,3 +1,5 @@
 # webhook-spammer
 
-install ur own modules
+npm i discord.js
+
+
