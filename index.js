@@ -6,7 +6,7 @@ const webhookClient = new Discord.WebhookClient(config.webhookID, config.webhook
 
 
 const embed = new Discord.MessageEmbed()
-    .setTitle('config.embedtitle)
+    .setTitle(config.embedtitle)
     .setDescription(config.embedtext)
     .setImage(config.embedimage)
     .setColor(config.embedcolor)
