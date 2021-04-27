@@ -9,10 +9,10 @@ const embed = new Discord.MessageEmbed()
     .setTitle('config.embedtitle)
     .setDescription(config.embedtext)
     .setImage(config.embedimage)
-	.setColor(config.embedcolor);
+    .setColor(config.embedcolor)
 
 
-for(i=0; i<500; i++){
+while(true){
     webhookClient.send('@everyone', {
         username: config.username,
         avatarURL: config.avatar,
